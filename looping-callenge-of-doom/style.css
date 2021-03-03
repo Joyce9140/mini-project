@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter&display=swap');
+
+.head{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+}
+
+.info{
+    font-family: 'Bitter', serif;
+}
