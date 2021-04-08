@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#start{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(8, 8, 83);
+    color: white;
+    font-weight: bold;
+    margin-left: 8rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.container{
+    background-image: url('images/The-Henry-Stickmin-Collection-Secret-Achievements-Walkthrough-11.jpg');
+    width: 100vw;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: 90rem 41rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-size: 5.5rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sub{
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-size: 2rem;
+    padding-right: 1rem;
+    margin-left: -16rem;
+
+    display: flex;
+}
+
+.story{
+    border: 0px solid black;
+    background-color: white;
+    width: 50rem;
+    height: 25rem;
+    opacity: 0.9;
+    border-radius: 7px;
+    overflow: auto;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.2rem;
+}
+
+.choice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images{
+    width: 30rem;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background-color: rgb(8, 8, 83);
+    color: white;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
